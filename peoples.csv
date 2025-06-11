@@ -1,0 +1,326 @@
+Number,Company,Job,Diet,Travel,Languages,Country
+1,glueckkanja AG,Azure Cloud Architect,Vegetarian,,"English, German",Germany
+2,Abraxas Systemberatung GmbH,Consultant,None,,,Germany
+3,GDA mbH,System Engineer,None,,,Germany
+4,ABCD Online Ltd,Technology Consultant,None,,,United Kingdom
+5,Advitum AB,IT Consultant,None,,,Sweden
+6,Capeletti & Perl,M365 Solution Expert,None,,"German, English",Germany
+7,Unit IT A/S,Operations Consultant,None,,,Denmark
+8,Unit IT A/S,Operations Consultant,None,,,Denmark
+9,Mobil ISC GmbH,IT-Security Specialist,Vegan,,"English, German",Germany
+10,HJE Consult,Consultant,None,,,Denmark
+11,KPMG IT Service GmbH,Manager,None,,"English, German",Germany
+12,,DevOops Engineer,,,English,United Kingdom
+13,Advitum,Senior IT Consultant,None,,"Swedish, English",Sweden
+14,Mindcore,Consultant,None,,"English, Dutch",Denmark
+15,Omnicit AB,Solutions Architect,None,,"English, Swedish",Sweden
+16,AtkinsRealis,Senior Identity and Access Management Engineer,None,,English,United Kingdom
+17,Novo Nordisk A/S,IT Architect,None,,,Denmark
+18,Novo Nordisk A/S,Advanced IT operations analyst,None,,"Danish, English",Denmark
+19,Betken IT-Solutions,Senior IT-Consultant ,None,,,Germany
+20,Aramco Europe,IT Guy,"None, Vegan",,,Netherlands
+21,Debeka Krankenversicherungsverein a. G.,IT-System-Engineer,None,,"English, German",Germany
+22,Debeka Krankenversicherungsverein a. G.,IT Systemadministrator,None,,,Germany
+23,Ireckonu,Senior Cloud Services Engineer,None,,"English, French, Romanian, Russian",Netherlands
+24,glueckkanja AG,Cloud Engineer,,,,Germany
+25,Atea,Senior Consultant,None,,"English, French, Swedish",Sweden
+26,J.M. Voith SE & Co. KG,Admin,Vegan,,"English, German",Germany
+27,NIL d.o.o.,Consulting engineer,None,,,Slovenia
+28,NIL d.o.o.,Consulting engineer,None,,English,Slovenia
+29,WWK LebensVersicherung a.G.,IT-Systems Engineer,None,,,Germany
+30,WWK Lebensversicherung a.G.,IT-Systems Engineer,None,,,Germany
+31,WWK LebensVersicherung a.G.,IT-Systems Engineer,None,,"English, German",Germany
+32,WWK Lebensversicherung a.G.,IT-Systems Engineer,None,,"German, English",Germany
+33,New Work SE,Senior System Engineer,"Vegan, Vegetarian",,,Germany
+34,New Work SE,Senior System Engineer,None,,"English, Spanish",Spain
+35,New Work SE,System Engineer,None,,,Spain
+36,VGR Koncernstab digitalisering,Technical specialist,None,,"Swedish, English",Sweden
+37,VGR Koncernstab digitalisering,Technical specialist,,,,Sweden
+38,VGR Koncernstab digitalisering,IT architect,None,,,Sweden
+39,VGR Koncernstab digitalisering,Technical specialist,,,,Sweden
+40,VGR Koncernstab digitalisering,Technical specialist,None,,,Sweden
+41,VGR Koncernstab digitalisering,IT technician,None,,"English, Swedish",Sweden
+42,VGR Koncernstab digitalisering,Technical specialist,None,,"Swedish, English",Sweden
+43,VGR Koncernstab digitalisering,Technical specialist,None,,,Sweden
+44,VGR Koncernstab digitalisering,Technical specialist,,,,
+45,VGR Koncernstab digitalisering,Technical specialist,None,,"Swedish, English",Sweden
+46,VGR Koncernstab digitalisering,Devops engineer,Halal,,"Swedish, English, Urdu",Sweden
+47,ING-DiBa AG ,System Engineer,Vegetarian,,"English, German",Germany
+48,ING-DiBa AG,Systems Engineer,None,,"German, English",Germany
+49,ING-DiBa AG,Database Engineer,None,,"English, German",Germany
+50,ING DiBa AG,Database Engineer,None,,"German, English",Germany
+51,ING DiBa,Ops Engineer,None,,"English, German",Germany
+52,ING DiBa,System Engineer,None,,"English, German",Germany
+53,Methos,DevOps Engineer,No fish or sea animals.,,,Netherlands
+54,Swisscom (Schweiz) AG,DevOps Engineer,None,,"German, English",Switzerland
+55,Swisscom (Schweiz) AG,DevOps Engineer,None,,,Switzerland
+56,Region Skane,Platform Engineer,None,,"English, Swedish",Sweden
+57,Region Skåne,Platform Engineer,None,,"English, Swedish",Sweden
+58,Capgemini Norge AS,Delivery Architect,None,,,Norway
+59,Velliv A/S,Software Developer,None,,"Danish, Swedish, English",Denmark
+60,Telia Cygate AB,IT Architect,,,,Sweden
+61,Politie Nederland,Lead developer,None,,,Netherlands
+62,Dutch Police,System Egineer,None,,,Netherlands
+63,Dutch Police,Solution Architect Microsoft Server,None,,,Netherlands
+64,,DevOps BeeKeeper,None,,English,Denmark
+65,KITCO GmbH,CEO,None,,,Switzerland
+66,JYSK,LEAD IT Specialist,None,,,Denmark
+67,JYSK,Team lead,"None, Is Carnivore an option?",,,Denmark
+68,Prosecution Service,IT-Specialist,None,,,Denmark
+69,Aramark Holding Deutschland GmbH,System Architect,None,,,Germany
+70,HUK-COBURG VVaG,SB,None,,German,Germany
+71,Region Midtjylland,IT-specialist,None,,"Danish, English",Denmark
+72,Region Midtjylland,IT-Specialist,None,Train,"Danish, English",Denmark
+73,IDA,Automation Engineer,None,Train,,Denmark
+74,IDA,Systemadministrator,None,Train,,Denmark
+75,Holteistr. 84,Natural born trainer,None,"Flight, I assume.","English, Dutch, German",Germany
+76,Sewells Consulting,Beard Twizzler,"None, I like food",No idea yet,,United Kingdom
+77,Nilfisk,Senior IT Engineer,None,I'll fly to Copenhagen then take the train to Malmö.,,Hungary
+78,Unwonted,Cloud Specialist,Vegan,"Likely flying from Stockholm to Malmö on the Sunday, then local transfer from the airport. Same way back.","English, Swedish",Sweden
+79,Microsoft,Senior Software Engineer,None,Not sure yet. Most likely by plane.,,Czechia
+80,Semperis,Senior Solutions Architect,None,"Flying into CPH on Sunday PM, then by train",,Germany
+81,Microsoft,Premier Field Engineer,None,Flight from MUC,,Germany
+82,Perspective Dragon,Enterprise architect,None,"I need to check, travelling right now",,Portugal
+83,Brunswick Group,Cloud Solutions Architect,None,"Flying on the RK2618 into Copenhagen at 1510 on Sunday 22nd. Planning on getting the train over to Malmo.
+
+Leaving via Train to Stockholm on the Thursday, exact times not planned yet",,United Kingdom
+84,Advania Knowledge Factory,Consultant,Vegetarian,Train or car,"English, Swedish",Sweden
+85,KMD A/S,Cloud Architect,None,I will probably take the train. Have not planned yet. But it is close to Denmark :),,Denmark
+86,SWK AG,Azure Cloud Engineer,Vegan,"I'll be taking a train from Düsseldorf to Malmö via Hamburg on Sunday, and travel back early on the last day to be able to make it",,Germany
+87,COC AG,Senior Systems Engineer,None,,"English, German",Germany
+88,"JDH IT Solutions, Inc.",Learning Architect,,I assume I will take the train from CPH.,,United States
+89,PartsTrader,Platform Engineering Lead,None,Not confirmed yet but will likely be travelling by train from Copenhagen.,,New Zealand
+90,NEXXT B.V. / PowerShellisfun,Consultant,None,"Plane from Amsterdam to Kopenhagen, train to Malmö, Clarion hotel","English, Dutch",Netherlands
+91,Landskrona Stad,Systems Administrator,None,,"Danish, English, Swedish",Sweden
+92,Switch,Security Engineer,None,Fly,,Switzerland
+93,Microsoft,Sr. Security Research Program Manager,"Vegan, Anti-Inflammatory diet (for health reasons)","I intend to fly, but haven't booked my flight yet",,Germany
+94,Microsoft,Senior Cloud Solution Architect,None,Train,"English, Norwegian",Norway
+95,Sewells Consulting Ltd,Director and consultant ,None,Fly to Copenhagen then train to Malmo,,United Kingdom
+96,badenIT GmbH,IT System Engineer,None,,,Germany
+97,Swedish police agency,Infrastructure architect,None,"Will be travelling by train, but don't have details now.",,Sweden
+98,Consultant,Developer,None,,,United States
+99,HDI AG,SysAdmin,None,,"English, German",Germany
+100,HDI AG,SysAdmin,None,,"German, English",Germany
+101,Göteborgs Stad,Software Developer,None,Sunday-Thursday by train,,Sweden
+102,Göteborgs stad,Software Developer,None,Sunday to thursday by train,"English, Swedish",Sweden
+103,Göteborgs Stad,Software Developer,None,sunday to thursday by train,,Sweden
+104,Göteborgs Stad,Software Developer,Halal,sunday to thursday by train,"English, Swedish",Sweden
+105,Axxes NV,System engineer,None,,"English, Dutch, Danish",Belgium
+106,Axxes NV,Senior System engineer/ Project manager,None,Plane / Train,"French, English, Dutch",Belgium
+107,Albany International Corp,Senior Datacenter Technichan,None,Train,"Swedish, English",Sweden
+108,Allied Digital Services LLC,Datacenter Solutions Architect,None,Probably flying into sweden week before and traveling by land,English,United States
+109,START-SCRIPTING,CEO,None,I'll be travelling by plane.,,France
+110,Red Hat,Principal Software Engineer,None,Still being decided but most likely fly into Copenhagen and train to Malmo.,English,Australia
+111,Inventx AG,Senior Systems Engineer Cloud,None,"I will arrive in Copenhagen by plane (Swiss LX1270 ZRH -> CPH) on 22.06.205 14:15 and travel on to Malmö by train. Currently I don't know how to travel by train, maybe you have a tip?",German,Switzerland
+112,ING-DiBa AG,DevOps Engineer,None,Fly from Frankfurt to Copenhagen and then travel by train to Malmö,"English, German",Germany
+113,Lkw Walter Internationale Transportorganisation Ag,Platform Engineer,None,"By plane, arrival at sunday evening, departure at thursday evening (via Kopenhagen)","English, German",Austria
+114,Lkw Walter Internationale Transportorganisation Ag,Platform Engineer,None,,"English, German",Austria
+115,Ironman Software,CEO,None,My wife and I will be flying in. We will likely arrive in time for the conference and stay some time afterwards.,"English, C#",United States
+116,Mobula Consulting,Consultant,None,Fly to Copenhagen and train to Malmo,English,United Kingdom
+117,Arbetsmiljöverket ,Systems Administrator,Vegan,Train,"English, Swedish",Sweden
+118,M.O.3.A.K. IT Consulting,Trainer,None,Flying to Copenhagen and then taking a train.,"English, Serbian",Serbia
+119,Synedgy,CEO,None,"Teleportation, or plane to CPH then train.","English, French",United Kingdom
+120,Sveaskog,System Engineer,None,Flying from Umeå to Malmö but not yet booked,"English, Swedish",Sweden
+121,BWI GmbH,Teamleader,None,,"English, German, Polish",Germany
+122,BWI GmbH,System Engineer,None,,"English, German",Germany
+123,BWI GmbH,System Enginner,None,,"German, English",Germany
+124,Bwi GmbH,Senior System Engineer,None,,German,Germany
+125,Sveaskog,Systemförvaltare,,"By train, some time on sunday the 22nd","Swedish, English, Norvegian",Sweden
+126,Swisscom Schweiz AG,DevOps Engineer,None,,"English, French, German",Switzerland
+127,University of Basel,ICT System Engineer,,I'll stay in Kopenhagen and travel to Malmö,"English, German",Switzerland
+128,OGD,Field CTO,None,No clue yet,"Dutch, English",Netherlands
+129,2Pint Software,Programme Director,None,"Flying, likely via Copenhagen.",English,United States
+130,SynEdgy,Communication & Event Manager,None,Plane,"French, English",France
+131,Atea,Consultant,None,,"English, Swedish",Sweden
+132,Worldline NV/SA,SRE Lead,None,Plane and train,"English, French",Belgium
+133,Worldline,SRE,None,"Trip on the 22th of June
+France -> Brussels : car
+Brussels -> Copenhagen : plane (landing at 22h)
+Copenhagen -> Malmö : train","English, French",France
+134,Worldline,SRE,None,Plane to Copenhagen + train to Malmo,"French, English",Belgium
+135,Worldline,SRE DBA,,,"French, English",Belgium
+136,Worldline,SRE DBA,None,Plane and train,"French, English",Belgium
+137,Worldline,SRE DBA,Halal,"I will arrive in Malmö on the 22nd of June by flight to Copenhagen and then train to Malmö. For the return trip, I will take the train to Copenhagen and then fly to Paris on the 26th of June","English, French, Arabic",France
+138,Worldline,SRE,None,plane and train,"English, French",Belgium
+139,Worldline,Site Reliability Engineer,None,"Flight from Brussels to Copenhagen, then train to Malmo","English, Serbian, Croatian",Belgium
+140,Worldline,SRE Lead Manager,None,Plane and train,"French, English",Belgium
+141,Worldline,SRE,None,,"Dutch, French, English",Belgium
+142,Knowledge Factory,Solution Architect,Vegan,By train,"English, Swedish",Sweden
+143,Knowledge Factory,Technical Specialist,None,Probably by car.,"English, Swedish",Sweden
+144,Linköping University,System administrator,,"By train from Linköping (not available to book a ticket yet, but will arrive on sunday)","English, Swedish",Sweden
+145,Linköping University,System Administrator,None,Train,"English, Swedish, Powershell",Sweden
+146,Vamed Management und Service GmbH,IT Engineer,None,,"English, German",Austria
+147,Exsitec ApS,IT Consultant,None,By car from Aarhus in Denmark,"Danish, English",Denmark
+148,Intraservice,IT Strategist,Vegetarian,,"English, Swedish",Sweden
+149,Intraservice,Microsoft 365 Architect,None,,"Danish, English, Swedish",Sweden
+150,Intraservice,IT Strategist,None,,"English, Swedish",Sweden
+151,de Coöperatieve Rabobank U.A.,Azure Cloud Engineer,,Plane,"English, Dutch",Netherlands
+152,Linköping University,System Administrator,None,Train,"English, Swedish",Sweden
+153,ACP IT Solutions AG,IT Consultant,None,"By plane to Kopenhagen, then public transport to Malmö, on the evening before the conference starts.","English, German",Germany
+154,Port of Antwerp-Bruges - Haven van Antwerpen-Brugge NV van Publiek Recht,SysOps  Architect,"Vegan, Vegetarian, No fat food. Chicken, fish is ok.",By car or by plane.,"Dutch, English",Belgium
+155,Data Masterminds,Data Platform Engineer,None,Flying to Copenhagen and then train - not finalised,English,United Kingdom
+156,TTTech Computertechnik AG,IT Automation Engineer,None,,"German, English",Austria
+157,TTTech Computertechnik AG,IT Systems Engineer,"None, Mushrooms are gross","By air, most likely",English,Austria
+158,Finanz Informatik,Senior DevOps-Engineer,None,I'm travelling by car/motorhome and arrive a few days before the conference starts and stay in Sweden a few days longer than the conference lasts,"English, German",Germany
+159,MIBRAG GmbH,Head of IT Infrastructure,None,Flight,German,Germany
+160,Inventx AG,DevOps engineer,None,By Flight to Copenhagen.,"German, Italian, English",Switzerland
+161,Inventx AG,Senior Systems Engineer Cloud,None,Don't know exactly yet. I'll probably arrive a day early by plane and train with my family. And will probably leave on Saturday/Sunday after the conference.,"English, German, Japanese",Switzerland
+162,CANCOM GmbH,Senior System Engineer,None,,"English, German",Germany
+163,Systech Ltd,System Administrator,None,Fly into Copenhagen then get train,"Spanish, English",Spain
+164,Patch my pc ,Software engineer,Vegan,Will be getting the train from Copenhagen,"English, Australian",United Kingdom
+165,VOLKSWAGEN Group Services GmbH ,Senior Azure Cloud Solution Architect,None,,"German, English",Germany
+166,VOLKSWAGEN Group Services GmbH ,Senior Azure Cloud Solution Architect,None,Via plane to Kopenhagen airport and then via train,"English, German",Germany
+167,VOLKSWAGEN Group Services GmbH ,Software Engineer,,,"German, English",Germany
+168,Swisscom,Engineer,None,Flight/Train,"English, German",Switzerland
+169,Atea Sverige,Systemkonsult,None,By train from Stockholm,"English, Swedish",Sweden
+170,OGD,Consultant,None,Fly (still need to book),"Dutch, English, German",Netherlands
+171,Swisscom,CEO,None,Plane / uber,"English, French, German",France
+172,Wortell,Developer,None,"Flight to Kopenhagen,  train to Malmö","Dutch, English",Netherlands
+173,Polismyndigheten,Teknikspecialist,None,unclear,"Swedish, English",Sweden
+174,Polismyndigheten,IT tekniker,None,Train,"English, Swedish",Sweden
+175,Polismyndigheten,Teknikspecialist,None,,"Swedish, English",Sweden
+176,Polismyndigheten,Systems administrator,None,Car or bus,"Swedish, English",Sweden
+177,Capgemini Norge AS,Manageing Delivery Architect,,by plane+train or by car. Not decided yet.,"English, PowerShell, Terraform",Norway
+178,Pure Storage,Principal Field Solutions Architect,None,I am yet to book my travel,"English, Irish",Ireland
+179,SECURIX AG,Consultant,None,22.6.2023 by train,"English, German",Switzerland
+180,I-System,CEO,None,,"Czech, English",Czechia
+181,DATEV eG,Systemadministrator Windows Server & Antivirus,None,"Flight form Nuremberg via Frankfurt to Copenhagen, then train to Malmö. I'll be arriving sunday evening.","English, French, German",Germany
+182,DATEV eG,IT System Engineer,None,Plane and Train,"English, German",Germany
+183,G Research,Endpoint Engineer,None,By flight,English,United Kingdom
+184,Ivanti Poland Sp. z o.o,"Senior Manager, Systems Administrator","None, none",flight and train,"English, no",Poland
+185,Conceptive Damian Garbus,Owner,,,"Polish, English",Poland
+186,Ivanti Poland Sp. z o.o.,Automation and Process Engineer,None,Flight and train,"Polish, English",Poland
+187,,Senior engineer,Vegetarian,Train,"English, Norvegian, Swedish",Norway
+188,Optiver,Application Engineer,None,,"English, Polish",Netherlands
+189,SecuriX AG,IT Engineer,None,Flight to CPH and then train to Malmö. Will arrive on Sunday and leave an Thursday.,"English, German, Swiss German",Switzerland
+190,Microsoft,Cloud Solution Architect,None,,"English, German, PowerShell",Germany
+191,Atea,Senior Consultant - Cloud / Datacenter,None,"I'm local, no travelling needed.
+commuting from just outside Malmö. (16km / 20min)","English, Swedish",Sweden
+192,Nucifraga,CEO,None,"Not sure yet. By car, most probably","Dutch, English",Netherlands
+193,G Research,Analyst,No beef,,English,United Kingdom
+194,Göteborgs Stad,Teknisk IT Strateg,None,,"English, Swedish",Sweden
+195,badenIT GmbH,System Engineer,None,by flight,"English, German",Germany
+196,SVA System Vertrieb Alexander GmbH,System Engineer,None,,"German, English",Germany
+197,SVA System Vertrieb Alexander GmbH,System Engineer,None,"From Germany, to Kopenhagen by Flight.
+From Kopenhagen to Malmö by FlixBus.","English, German",Germany
+198,Exobe AB,Consultant,None,Car,"English, Swedish",Sweden
+199,Exobe AB,EMS Ninja,None,Probably train.,"Swedish, English, PowerShell",Sweden
+200,sympany,M365 System Engineer,None,fly,"English, German",Switzerland
+201,Sympany Services AG,M365 Cloud Engineer,None,Plain,"English, German",Germany
+202,Sopra Steria,Engineer,None,,"English, Danish, Norvegian, Swedish",Norway
+203,C. Melchers GmbH & Co. KG,Junior Consultant Intune & Cloud Security,None,We will travel to Malmö using the car,"English, German",Germany
+204,C. Melchers GmbH & Co. KG,Junior Consultant Softwarepackaging & Endpoint Management,None,Car,"English, German",Germany
+205,KPMG IT Service GmbH,Software Developer,,,"German, English",Germany
+206,DWS ,System Engineer ,None,,English,United Kingdom
+207,Region Gotland,System Engineer,None,"Train, not yet booked, will probably arrive day before.","English, Swedish",Sweden
+208,Allianz Technology GmbH,Application Integration Engineer,None,fly,"English, German",Austria
+209,Allianz Technology GmbH,Product Owner,None,Arrive and leave by plane and train on sunday,"English, German",Austria
+210,Devolutions,CTO,None,,"English, French",Canada
+211,SAF,IT,"No fish, vegetarian works if fish is on the menu",Train,"English, Swedish",Sweden
+212,GrECo International Holding AG,IT,None,"fight to Copenhagen, train to Malmo","English, German, Czech",Austria
+213,"Chocolatey Software, Inc.",Technical Engineering Manager,"None, Can non-dairy milk be available (oat or soya, for example? Note, I'm not intolerant to dairy.",I will be flying and arriving on Saturday or Sunday and leaving on Friday.,English,United Kingdom
+214,"Chocolatey Software, Inc.",Principal Software Engineer,None,Flying.,English,United Kingdom
+215,NORDEN A/S,IT System Administrator,None,I'll Drive,"Danish, English",Denmark
+216,KU Leuven,Information security,None,by plane and train,"Dutch, English",Belgium
+217,KU Leuven,Information security,None,By plane and train,"English, Dutch",Belgium
+218,KU Leuven,Local Infrastructure System Administration,None,By plane and train,"Dutch, English",Belgium
+219,Atea A/S, senior consultant,None,I will drive from Denmark,"Danish, English",Denmark
+220,Sykehuspartner HF,Special Consultant - IT,,Fly to Copenhagen and take the train to Malmö,"Norwegian, English",Norway
+221,Two Sigma,Systems Engineer,None,"flying from London to Copenhagen, train from Copenhangen to Malmo","Russian, English",United Kingdom
+222,Cloudworks AB,IAM Consultant,None,Drive/train,"Swedish, English",Sweden
+223,Cloudworks AS,Cloud Architect,None,,"English, Norwegian, Dutch",Norway
+224,"Chocolatey Software, Inc.",Senior Solutions Engineer,None,"Flying, though possibly a few days early.",English,United Kingdom
+225,"Chocolatey Software, Inc.",Software Engineer,None,Train.,"Danish, English",Norway
+226,Microsoft,"Product Manager, Azure Policy & Machine Configuration ",I dont eat fish,I will fly to Copenhagen on the 21st and take the train to Malmo the afternoon of the 22nd. I will leave the next morning after the last day.,English,United States
+227,Siemens AG,IT Solution Architect,None,I will come by train.,"English, German",Germany
+228,Saab AB,IT slav,None,Train,"English, Swedish",Sweden
+229,JN Data,IAM Specialist,None,Train,"Danish, English",Denmark
+230,SAAB AB,IT-Nisse,None,,"Swedish, English",Sweden
+231,Bank Vontobel AG,Senior Collaboration Engineer,None,,"English, German, Russian",Switzerland
+232,Atea,IT Security Consultant,None,Kastrup Airport,"English, Swedish",Sweden
+233,Statnett SF,Senior Advisor,None,,"Norwegian, English",Norway
+234,"Brose Fahrzeugteile SE & Co. KG, Bamberg",Systemadministrator,None,Train,"English, German",Germany
+235,Crayon AS,Senior Technical Architect,None,,"Norwegian, English",Norway
+236,InSpark B.V.,DevOps Engineer,None,Sunday 22-06-2025,"Dutch, English",Netherlands
+237,baseVISION AG,Senior Azure Engineer,None,don't know yet,German,Switzerland
+238,Karlskoga Energi och Miljö AB,System technician,Vegetarian,,"English, Swedish",Sweden
+239,Karlskoga Energi och Miljö AB,System technician,None,,"Swedish, English",Sweden
+240,Microsoft,Product Manager,None,Flight and train,English,United States
+241,,System Engineer,Halal,By plain then train,"Dutch, English",Netherlands
+242,Coast Center Base,IT Wizard,None,Plane to CPH and train/taxi over to Malmö,"Norwegian, English, Swedish",Norway
+243,NTNU,Senior Engineer,None,Plane to Copenhagen and train from there to Malmö on Sunday evening,"Norwegian, English",Norway
+244,Microsoft,Software Engineer,None,Traveling from Boston to Malmo - leaving 21/6 and arrive 22/6 early in the morning. Will be taking the train from Copenhagen airport to Malmo.,English,United States
+245,Microsoft,Software Engineer II,None,"Fly into Copenhagen, take train to Malmo",English,United States
+246,SGP,senior engineer,None,Sunday bus,"English, Norwegian, Swedish",Norway
+247,ReDI School of Digital Integration,Community Coordinator ,None,,English,
+248,ReDI School Of Digital Integration,IT-Support technician,None,,"English, Swedish",
+249,ReDI School Malmö,Intern Teaching Assistant UX/UI Design Course ,Vegetarian,,"English, Swedish, Turkish",
+250,ReDi school,student ,Pescatarian,,"Portuguese, Spanish, English",
+251,braincon GmbH,COO,None,,"German, English",Germany
+252,braincon GmbH,Lead Operations Expert   ,None,,"English, German",Germany
+253,braincon GmbH,Senior Operations Expert,None,Flight from Frankfurt,"English, German, Hungarian",Germany
+254,Varde Partners,Infrastructure & Operations Manager,None,Flying from London,English,United Kingdom
+255,Truesec AB,Principal Consultant,None,,"English, Swedish",Sweden
+256,diecknet UG (haftungsbeschränkt),CEO / IT-Consultant,None,By car via Öresund bridge,"German, English",Germany
+257,Hutchison Drei Austria Gmbh,Service Engineer,None,,"English, German",Austria
+258,Euroclear SA/NV,Information Security Analyst Complex,None,"Sunday I take the plain from Brussels to Copenhagen Arrival at 16:25 and then a train to Malmö
+On Friday I take a train to be in Copenhagen airport at 10AM and then a plain to Brussels.
+Trains are not booked yet.","Dutch, English, French, German",Belgium
+259,NTNU,Senior Engineer,None,I will be flying to Copenhagen from Trondheim 22.06 and taking the train to Malmø from the airport.,"English, Norwegian, Swedish",Norway
+260,PDQ,PowerShell Lover,None,Fly to copenhagen then take a train to Malmo,English,United States
+261,GE Aerospace,Sr Software Engineer,None,Flight into Copenhagen and train ride to Malmo,English,United States
+262,Setcor d.o.o.,IT System Administrator,None,,English,Croatia
+263,,System Engineer,Halal,Plane/fly,"Dutch, English",Netherlands
+264,Demant Enterprise A/S,IT Solution Specialist,None,Probably by train. Not sure about arrival time yet.,"Danish, English",Denmark
+265,Jane Street,Windows Engineer,None,I have not finalized my plans yet but i'll either fly from london or come by train from kopenhagen,"English, Russian, Hebrew",United States
+266,Jane Street,Windows Engineer,None,Taking a train from Copenhagen.,English,United States
+267,Jane Street,Windows Engineer,None,Fly,English,United States
+268,Jane Street,Windows Engineer,None,"Fly to Copenhagen, then car or train to Malmo",English,United Kingdom
+269,Jane Street,Windows Engineer,None,Fly,English,United Kingdom
+270,KPMG ITS,Product Owner,None,,"English, German",Germany
+271,KPMG ITS,Product Owner,None,Fly by Plane from BER Airport to Kopenhagen from 22.06. to 27.06.,"German, English",Germany
+272,KPMG ITS,Product Owner,None,Me and my colleagues are travelling from Berlin to Kopenhagen by plane and then take the train towards Malmö,"English, German",Germany
+273,Cancom GmbH,IT Consultant,None,,"English, German",Germany
+274,Cancom GmbH,System Engineer,None,Plane,"German, English",Germany
+275,Cancom GmbH,Consultant,,,"English, German",Germany
+276,CANCOM GmbH,Consultant,None,,"English, German",Germany
+277,CANCOM GmbH,IT Architect,,,"English, German",Germany
+278,CANCOM GmbH,IT Architect,,,"German, English",Germany
+279,CANCOM,IT Architekt,None,,"English, German",Germany
+280,Hamburg-Kölner-Vermögensverwaltungsges. mbH,Application Services ,None,"I will arrive by train on Sunday, 22.06.2025 around 18:40 and return on Friday from 09:00.","English, German",Germany
+281,Truesec AB,Senior Technical Architect,None,,"English, Swedish",Sweden
+282,Truesec,Senior Technical Architect,None,,"Swedish, English",Sweden
+283,Justitiële ICT Organisatie,Sr DevOps Engineer,Vegetarian,By train,"Dutch, English",Netherlands
+284,Justitiële ICT Organisatie,Sr DevOps Engineer,None,By train,"English, Dutch",Netherlands
+285,,,,,,
+286,NTNU,Seniorkonsulent,None,"Plane to Copenhagen, train to Malmö","English, Norwegian, Swedish",Norway
+287,Booking.com B.V.,Threat Detection Engineer,No shellfish,"Arriving by train via Copenhagen on Sunday, departing on Friday","Danish, English",Netherlands
+288,,Senior Business Applications Engineer ,None,Fly from to CPH + train to Malmö,"English, Italian",Netherlands
+289,Statnett SF,Engineer,None,Train,"Norwegian, English, Swedish",Norway
+290,BWI GmbH,IT-Architect/ Powershell Developer,None,By Bus from Kopenhagen,"English, German",Germany
+291,None,Wife,None,,"Czech, English",
+292,None,Son,None,,Czech,
+293,None,Son2,None,,Czech,
+294,M.O.3.A.K. IT Consulting,Co-founder,None,,"English, Serbian",
+295,Yandex,Team Lead,,,"English, Russian",Russian Federation
+296,Yandex,System Engineer,None,,"English, Russian",Russian Federation
+297,,Product Owner,None,,"English, German, Hungarian",
+298,D'Arcy Services Ltd,Director,None,,English,
+299,Jenny Lawrie Consulting,Business Analyst,None,,English,
+300,Zentura A/S,Application & Cloud Specialist,None,,"Danish, English",Denmark
+301,The World,Supreme Rockmaster General,,,English,
+302,Seges Innovation,Senior Business Analyst ,Vegetarian,,"Danish, Norwegian, English",
+303,base-IT GmbH,Automation Consultant,,flight,"English, German",Austria
+304,Advania Sverige Knowledge Factory,Technical Specialist,None,By commuter train over the bridge from Denmark,"Danish, English, Swedish",Denmark
+305,Advania,Technical Specialist,None,,"Swedish, English",Sweden
+306,Advania Danmark A/S,Microsoft 365 Cloud Specialist,None,drive,"Danish, English",Denmark
+307,Hamburg-Kölner-Vermögensverwaltungsges. mbH,Application Service,None,,Dutch,Germany
+308,,Nurse,None,,"English, Swedish",
+309,noris network AG,Senior IT Systems Engineer (Windows),None,"Come and go by plane. Arrive sunday, leave friday.","German, English",Germany
+310,Tobias Weltner,CEO,None,Sunday via Copenhagen,"English, German",Germany
+311,,Student,None,,"German, English",
+312,ING Hubs Poland,Engineer IV,Vegetarian,,"Polish, English",Poland
+313,ICW AB,Devops Engineer,None,Drive,Swedish,Sweden
+314,,Partner,None,,"Swedish, English, Danish",
+315,NovoNordisk,System Administrator,None,Train,"Danish, English",Denmark
+316,DATEV eG,IT System Engineer,Vegetarian,Fly by Plane on June 22 to Copenhagen and travel by Train to Malmö. Leave by Train on June 26 at 16:00h by train to Copenhagen Airport.,"German, English",Germany
