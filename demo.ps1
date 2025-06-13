@@ -5,22 +5,45 @@
 
 cd /workspaces/sql_for_devcontainer/
 
-Install-PSResource dbatools -TrustRepository
+if (-not (Get-InstalledPSResource -Name dbatools1 -ErrorAction SilentlyContinue)) {
+    Install-PSResource dbatools -TrustRepository
+}
+
 Set-DbatoolsInsecureConnection
 
 $database = "släktingar"
+$TableName = "vänner"
+
 
 # path to ollama exposed via devtunnel if running in a codespace
-$uri = "https://ggxkw6xc-11434.uks1.devtunnels.ms/api/embed"
+$uri = "https://67fdmt48-11434.uks1.devtunnels.ms/api/embed"
 
+#create connection to SQL Server running in the devcontainer
 $secStringPassword = 'P@ssw0rd' | ConvertTo-SecureString -AsPlainText -Force
 [pscredential]$cred = New-Object System.Management.Automation.PSCredential ('sa', $secStringPassword)
 $sql = Connect-DbaInstance -SqlInstance localhost -SqlCredential $cred
 
-New-DbaDatabase -SqlInstance $sql -Name $database -RecoveryModel Full
+$PSDefaultParameterValues = @{
+    '*Dba*:SqlInstance' = $sql
+    '*Dba*:Database' = $database
+    '*Dba*:Table' = $TableName
+}
+
+#create a new database
+$DatabaseConfig = @{
+    Name = $database
+    RecoveryModel = 'Full'
+}
+if(-not (Get-DbaDatabase )) {
+    Write-Host "Creating database $database" -ForegroundColor Green
+    New-DbaDatabase @DatabaseConfig
+} else {
+    Write-Host "Database $database already exists" -ForegroundColor blue
+
+}
 
 $newTable = @"
-CREATE TABLE vänner (
+CREATE TABLE {0} (
     Number INT PRIMARY KEY,
     Company NVARCHAR(255),
     Job NVARCHAR(255),
@@ -30,8 +53,16 @@ CREATE TABLE vänner (
     Country NVARCHAR(100),
     embeddings VECTOR(768)
 );
-"@
-Invoke-DbaQuery -SqlInstance $sql -Query $newTable -Database $database
+"@ -f $TableName
+
+if(-not (Get-DbaDbTable -Table $TableName)){
+    Write-Host "Creating table $TableName" -ForegroundColor Green
+    Invoke-DbaQuery -Query $newTable
+} else {
+    Write-Host "Table $TableName already exists" -ForegroundColor Blue
+}
+
+
 #endregion
 
 #region function definition
@@ -136,8 +167,8 @@ function Get-Top10SimilarEmbeddings {
   FROM [släktingar].[dbo].[vänner] p
     ORDER BY distance ASC;
 "@
-    $results = Invoke-DbaQuery -SqlInstance $SqlInstance -Query $query -Database $Database
-    Write-Host $SearchEmbedding
+    $results = Invoke-DbaQuery -Query $query
+
     return $results
 }
 
@@ -170,12 +201,12 @@ function Get-Top100SimilarEmbeddings {
 
 # Import the CSV file and generate embeddings
 
-$table = New-EmbeddingsGenerationFromCSV -CsvPath ./peoples.csv -Uri $uri -TableName 'vänner'
+$table = New-EmbeddingsGenerationFromCSV -CsvPath ./peoples.csv -Uri $uri -TableName $tableName
 
 $Table | Format-Table -AutoSize
 
 # Write the updated data back to the database, using this method for better than row by row for performance
-$Table | Write-DbaDbTableData -SqlInstance $Sql -Database $database -Table vänner
+$Table | Write-DbaDbTableData
 
 # Use natural language to search the data by creating an embedding for the search text and then finding the top 10 most similar embeddings in the database
 $SearchText = 'I am looking for vegetarians who have travelled from Sweden'
