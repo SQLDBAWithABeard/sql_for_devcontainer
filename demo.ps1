@@ -3,9 +3,9 @@
 # will need ollama to be set up and running
 #region setup
 
-cd /workspaces/sql_for_devcontainer/
+Set-Location /workspaces/sql_for_devcontainer/
 
-if (-not (Get-InstalledPSResource -Name dbatools1 -ErrorAction SilentlyContinue)) {
+if (-not (Get-InstalledPSResource -Name dbatools -ErrorAction SilentlyContinue)) {
     Install-PSResource dbatools -TrustRepository
 }
 
@@ -22,6 +22,9 @@ $uri = "https://67fdmt48-11434.uks1.devtunnels.ms/api/embed"
 $secStringPassword = 'P@ssw0rd' | ConvertTo-SecureString -AsPlainText -Force
 [pscredential]$cred = New-Object System.Management.Automation.PSCredential ('sa', $secStringPassword)
 $sql = Connect-DbaInstance -SqlInstance localhost -SqlCredential $cred
+
+# I KNOW I KNOW but this is a demo and I want to keep the output pretty and I dont have time to find out why dbatools throws that warning.
+$WarningPreference = 'SilentlyContinue'
 
 $PSDefaultParameterValues = @{
     '*Dba*:SqlInstance' = $sql
@@ -203,16 +206,20 @@ function Get-Top100SimilarEmbeddings {
 
 $table = New-EmbeddingsGenerationFromCSV -CsvPath ./peoples.csv -Uri $uri -TableName $tableName
 
-$Table | Format-Table -AutoSize
+$Table | Select-Object -First 10 Number, Country, Embeddings| Format-Table -AutoSize
 
 # Write the updated data back to the database, using this method for better than row by row for performance
 $Table | Write-DbaDbTableData
 
-# Use natural language to search the data by creating an embedding for the search text and then finding the top 10 most similar embeddings in the database
+# Use natural language to search the data by creating an embedding for the search text and then finding the top 10 most similar embeddings in the database using cosine similarity vector function in SQLServer 2025
 $SearchText = 'I am looking for vegetarians who have travelled from Sweden'
 $searchEmbedding = New-SearchEmbedding -SearchText $SearchText -Uri $uri
 Get-Top10SimilarEmbeddings -SearchEmbedding $searchEmbedding -SqlInstance $sql -Database $database | Format-Table -AutoSize -Wrap
 
 $SearchText = 'I am looking for people who have travelled from Scandinavia'
+$searchEmbedding = New-SearchEmbedding -SearchText $SearchText -Uri $uri
+Get-Top10SimilarEmbeddings -SearchEmbedding $searchEmbedding -SqlInstance $sql -Database $database | Format-Table -AutoSize -Wrap
+
+$SearchText = 'What is most common diet for scandinavians?'
 $searchEmbedding = New-SearchEmbedding -SearchText $SearchText -Uri $uri
 Get-Top10SimilarEmbeddings -SearchEmbedding $searchEmbedding -SqlInstance $sql -Database $database | Format-Table -AutoSize -Wrap
