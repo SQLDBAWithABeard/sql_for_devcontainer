@@ -1,0 +1,11 @@
+Follow the instructions here
+https://github.com/nocentino/building-an-llm-on-your-laptop
+
+to set up ollama locally.
+
+I expose it via the dev tunnel temporarily whilst running this so as not to need to store 11Gb of ollama models in the codespace.
+
+Anthony has another repo
+https://github.com/nocentino/ollama-sql-faststart
+
+which will be stunning for local development if you have a machine with the right CPU architecture to run SQL containers (I have a windows ARM laptop so )
