@@ -1,5 +1,6 @@
 # HAIL TO ANTHONY NOCENTINO THE WONDERFUL and his buttery voice.
 
+# will need ollama to be set up and running
 #region setup
 
 cd /workspaces/sql_for_devcontainer/
@@ -8,7 +9,8 @@ Install-PSResource dbatools -TrustRepository
 Set-DbatoolsInsecureConnection
 
 $database = "släktingar"
-# path to ollama exposed via devtunnel
+
+# path to ollama exposed via devtunnel if running in a codespace
 $uri = "https://ggxkw6xc-11434.uks1.devtunnels.ms/api/embed"
 
 $secStringPassword = 'P@ssw0rd' | ConvertTo-SecureString -AsPlainText -Force
